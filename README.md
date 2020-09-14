@@ -1,5 +1,5 @@
 # Tunerpo-aldl-wb-plugin
-Tunerpro RT data acquistion plugin fro ALDL and wideband O2
+Tunerpro RT data acquistion plugin for ALDL and wideband O2
 
 * 8192 baud ALDL
 * Innovate or Aem WB with serialport connection
@@ -25,6 +25,6 @@ Instructions:
   - Conversion for Aem: X/10
 
 You can also replace another value in datastream with AFR value, in this case leave Body size & Payload size unmodified and setup "AFR word position" in plugin settings.
-Warning! beta software
+* Warning! beta software
 
 If Tunerpro crash, remove file ??\Documents\TunerPro Files\Plugins\Aldl-WB-Plugin.dll
