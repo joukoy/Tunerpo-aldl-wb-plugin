@@ -21,7 +21,7 @@ Instructions:
 - Setup Values, Wideband AFR:
   - Packet offset: 64 (AFR word position - 3 header bytes)
   - Source Data size: 16 Bit
-  - Conversionfor Innovate : (X/1000 + 0.5)*14.7 
+  - Conversion for Innovate : (X/1000 + 0.5)*14.7 
   - Conversion for Aem: X/10
 
 You can also replace another value in datastream with AFR value, in this case leave Body size & Payload size unmodified and setup "AFR word position" in plugin settings.
