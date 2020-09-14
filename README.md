@@ -6,7 +6,7 @@ Tunerpro RT data acquistion plugin for ALDL and wideband O2
 
 * Tested with 1989 TPI engine, should work with other 8192baud ALDL vehicles
 * Tested with Innovate MTX-L, should work with other models
-* Will be tested with Aem X-series soon...
+* Tested with Aem X-series Uego, should work with other models
 
 * Warning! Beta software. No warranty! Use at your own risk!
   * Requires VC++ 2019 runtime: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads vc_redist.x86.exe
