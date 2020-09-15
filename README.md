@@ -3,6 +3,7 @@ Tunerpro RT data acquistion plugin for ALDL and wideband O2
 
 * 8192 baud ALDL
 * Innovate or Aem WB with serialport connection
+* Plx WB. Not tested, please report all tests, success or failure!
 
 * Tested with 1989 TPI engine, should work with other 8192baud ALDL vehicles
 * Tested with Innovate MTX-L, should work with other models
@@ -23,6 +24,7 @@ Instructions:
   - Source Data size: 16 Bit
   - Conversion for Innovate : (X/1000 + 0.5)*14.7 
   - Conversion for Aem: X/10
+  - Conversion for Plx: (X/25.5) + 10
 
 You can also replace another value in datastream with AFR value, in this case leave Body size & Payload size unmodified and setup "AFR word position" in plugin settings.
 * Warning! beta software
