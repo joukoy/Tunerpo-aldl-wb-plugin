@@ -1,5 +1,5 @@
 <ADXFORMAT version="1.01">
-  <!-- Written 09/14/2020 12:47:12 -->
+  <!-- Written 06/08/2024 15:02:26 -->
   <ADXHEADER>
     <guid>4de99956-ac8b-4679-b54b-1cb93960fe81</guid>
     <flags>0x10000</flags>
@@ -260,9 +260,9 @@
 
   <ADXCLISTENPACKET id="COMMAND0RE" idhash="0xE6B79C55" title="Mode 1  Dump  Reply" flags="0x00000005">
     <listentimeout>400</listentimeout>
-    <packetbodylength>69</packetbodylength>
+    <packetbodylength>66</packetbodylength>
     <packetoffsetinbody>3</packetoffsetinbody>
-    <packetsize>66</packetsize>
+    <packetsize>63</packetsize>
   </ADXCLISTENPACKET>
 
   <ADXMACRO id="COMMAND0MAC" idhash="0xD685487C" title="Mode 1 Dump Macro" repeatcount="1">
@@ -584,7 +584,7 @@
   </ADXVALUE>
 
   <ADXVALUE id="WIDEAFR" idhash="0xD6688207" title="Wideband AFR">
-    <packetoffset>0x40</packetoffset>
+    <packetoffset>0x3C</packetoffset>
     <sizeinbits>16</sizeinbits>
     <range low="0.000000" high="1024.000000" />
     <alarms low="0.000000" high="1024.000000" />
