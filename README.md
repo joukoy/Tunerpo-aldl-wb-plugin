@@ -1,11 +1,14 @@
 # Tunerpo-aldl-wb-plugin
 Tunerpro RT data acquistion plugin for ALDL and wideband O2
 
+Version 1.3 simplified data handling, compatibility enhanced with different ECM models
+
 * 8192 baud ALDL
 * Innovate or Aem WB with serialport connection
 * Plx WB. Not tested, please report all tests, success or failure!
 
 * Tested with 1989 TPI engine, should work with other 8192baud ALDL vehicles
+* Tested with 16197427 ECM
 * Tested with Innovate MTX-L, should work with other models
 * Tested with Aem X-series Uego, should work with other models
 
@@ -14,19 +17,17 @@ Tunerpro RT data acquistion plugin for ALDL and wideband O2
 
 Instructions:
 
-- modify datastream definition, add AFR to END of datastream:
+- modify datastream definition, add AFR to datastream:
 
 - Uncheck ADX Header Data: "RSR232 Echo"
-- Mode 1 dump reply: Add 2 bytes to Body size (67 => 69)
-- Mode 1 dump reply: Add 3 bytes to Payload size (63 => 66)
 - Setup Values, Wideband AFR:
-  - Packet offset: 64 (AFR word position - 3 header bytes)
+  - Packet offset: 60 (Or other value, will replace original bytes 60 & 61)
   - Source Data size: 16 Bit
   - Conversion for Innovate : (X/1000 + 0.5)*14.7 
   - Conversion for Aem: X/10
   - Conversion for Plx: (X/25.5) + 10
 
-You can also replace another value in datastream with AFR value, in this case leave Body size & Payload size unmodified and setup "AFR word position" in plugin settings.
+You can also replace another value in datastream with AFR value, setup "AFR word position" in plugin settings.
 * Warning! beta software
 
 If Tunerpro crash, remove file ??\Documents\TunerPro Files\Plugins\Aldl-WB-Plugin.dll
