@@ -13,7 +13,7 @@ Version 1.3 simplified data handling, compatibility enhanced with different ECM 
 * Tested with Aem X-series Uego, should work with other models
 
 * Warning! Beta software. No warranty! Use at your own risk!
-  * Requires VC++ 2019 runtime: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads vc_redist.x86.exe
+  * Requires VC++ 2019 runtime: https://aka.ms/vs/17/release/vc_redist.x86.exe
 
 Instructions:
 
